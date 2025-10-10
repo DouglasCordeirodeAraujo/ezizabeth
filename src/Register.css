@@ -1,0 +1,37 @@
+*{
+    background-color: #104278;
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.formulario h1{
+    color: #ffffff;
+}
+
+.formulario-conteudo{
+    display: flex; 
+    flex-direction: column;
+    height: 100px;
+    gap: 10px
+}
+
+.formulario-conteudo label{
+    color: #ffffff
+}
