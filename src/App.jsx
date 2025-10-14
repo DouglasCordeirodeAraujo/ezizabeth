@@ -1,13 +1,15 @@
 import Register from './Register'
+import Footer from '/src/Footer.jsx'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div className='body'>
+    <div className='app'>
         <Register/>
-      </div>
+        <Footer/>
+    </div>
     </>
   )
 }

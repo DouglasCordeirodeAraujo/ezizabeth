@@ -1,13 +1,21 @@
-*{
+* {
   margin: 0;
-}
-
-#root{
-  margin: 0;
-  display: flex;
-  place-items: center;
-  width: 32;
-  min-height: 100vh;
+  padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: #104278;
+}
+
 

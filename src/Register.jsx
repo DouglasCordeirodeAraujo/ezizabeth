@@ -9,6 +9,8 @@ function Register(){
                 <h1>Cadastre-se</h1>
                 <div className="formulario-conteudo">
                     <label>e-mail:</label>
+                    <input type="email" />
+                    <label>Usuário:</label>
                     <input type="Text" />
                     <label >senha:</label>
                     <input type='password' />
